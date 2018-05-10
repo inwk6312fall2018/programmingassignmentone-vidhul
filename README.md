@@ -18,6 +18,6 @@ Save each task as a new file called with the name 1task$.py where $ = number of 
 
 1 - Write a Python function to Return a list that contains the tuple (interfacename,"nameif"- value). Write a Python function called "list_ifname_ip" to scan the configuration and return a dictionary that contains the "interfacename" as the key and "nameif,VLAN,IPaddress,NetMask" list as the value.
 
-2 - Write a Python function to create a new configuration file that replaces all (sub-)interface IP addresses that start with '172.' and '192." to "10." and also remove change the security-level to "10"
+2 - Write a Python function to create a new configuration file that replaces all (sub-)interface IP addresses that start with '172.' and '192." to "10." and also change the security-level to "10"
 
 3 - Write a Python function to create a list of "access-list" for "global_access" and "fw-management_access_in". 

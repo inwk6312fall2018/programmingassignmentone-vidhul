@@ -1,4 +1,4 @@
-# Inwk6312-Winter2018-ProgrammingTask2
+# Inwk6312-Summer2018-ProgrammingTask1
 
 # Programming Task 2
 
@@ -14,9 +14,10 @@ Welcome to your second programming task
 # The task!
 
 Use the attached partial firewall configuration file for the following exercises.
- 
-1 - Write a Python function called "list_ifname_ip" to scan the configuration and return a dictionary that contains the "nameif" as the key and "VLAN,IPaddress,NetMask" tuple as the value.
+Save each task as a new file called with the name 1task$.py where $ = number of the task
 
-2 - Create a new configuration file that replaces all (sub-)interface IP addresses that start with '172.' and '192." to "10." and also change the netmask from "255.255.0.0" or "255.255.255.0" to "255.0.0.0"
+1 - Write a Python function to Return a list that contains the tuple (interfacename,"nameif"- value). Write a Python function called "list_ifname_ip" to scan the configuration and return a dictionary that contains the "interfacename" as the key and "nameif,VLAN,IPaddress,NetMask" list as the value.
 
-3 - Create a list of "access-list" for "transit_access_in" and "WirelessHotspot_access_in". 
+2 - Write a Python function to create a new configuration file that replaces all (sub-)interface IP addresses that start with '172.' and '192." to "10." and also remove change the security-level to "10"
+
+3 - Write a Python function to create a list of "access-list" for "global_access" and "fw-management_access_in". 

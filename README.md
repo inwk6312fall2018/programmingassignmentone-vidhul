@@ -1,6 +1,6 @@
 # Inwk6312-Summer2018-ProgrammingTask1
 
-# Programming Task 2
+# Programming Task 1
 
 
 Welcome to your second programming task 

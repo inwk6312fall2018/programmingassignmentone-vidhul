@@ -1,4 +1,4 @@
-# Inwk6312-Summer2018-ProgrammingTask1
+# Inwk6312-ProgrammingTask1
 
 # Programming Task 1
 
